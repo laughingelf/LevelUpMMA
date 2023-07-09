@@ -78,21 +78,21 @@ const Navbar = () => {
                     </HashLink>
                     <HashLink
                         smooth
-                        to="/"
+                        to="/faq"
                         className="block sm:inline-block text-blue-500 hover:text-gray-300 font-medium transition duration-300"
                     >
                         FAQ
                     </HashLink>
                     <HashLink
                         smooth
-                        to="/"
+                        to="/#contact"
                         className="block sm:inline-block text-blue-500 hover:text-gray-300 font-medium transition duration-300"
                     >
                         Contact
                     </HashLink>
                     <HashLink
                         smooth
-                        to="/"
+                        to="/events"
                         className="block sm:inline-block text-blue-500 hover:text-gray-300 font-medium transition duration-300"
                     >
                         Events

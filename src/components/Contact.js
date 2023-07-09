@@ -3,7 +3,7 @@ import { HashLink } from 'react-router-hash-link';
 const Contact = () => {
     return (
 
-        <div>
+        <div id='contact'>
             <div className="flex justify-center items-center bg-cover bg-no-repeat bg-center h-64 sm:h-96 rounded-lg p-4 sm:mx-16" style={{
                 backgroundImage: "url('./img/contact-us-bg.webp')"
             }}>

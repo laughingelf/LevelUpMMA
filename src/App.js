@@ -7,6 +7,8 @@ import Footer from './components/Footer';
 import SignupPrices from './pages/SignupPrices';
 import LocationsSchedule from './pages/LocationsSchedule';
 import Testimonies from './pages/Testimonies';
+import FAQ from './pages/FAQ';
+import Events from './pages/Events';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path='/signup-and-prices' element={<SignupPrices />} />
         <Route path='/locations-shedule' element={<LocationsSchedule />} />
         <Route path='/parent-testimonies' element={<Testimonies />} />
+        <Route path='/faq' element={<FAQ />} />
+        <Route path='/events' element={<Events />} />
 
 
 
