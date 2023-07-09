@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+/* Default styles */
+#yt-video {
+  width: 590px;
+  height: 345px;
+}
+
+/* Media query for small screens */
+@media (max-width: 640px) {
+  #yt-video {
+    width: 80%;
+    height: 315px;
+  }
+}
+
+@media (max-width: 400px) {
+  #yt-video {
+    width: 90%;
+    height: 290px;
+  }
+}
+
+.staff-member {
+  width: 300px;
+}
+
+.staff-div {
+  max-width: 300px;
+}
+
+.contact-us {
+  width: 500px;
+}
+
+.contact-us-text {
+  width: 500px;
+  height: 300px;
+}
+
+
+@media (max-width: 550px) {
+
+  .contact-us-text,
+  .contact-us {
+    width: 300px;
+  }
+}
+
+.title {
+  font-family: 'Indie Flower', cursive;
+}
+
+@media (max-width: 1000px) {
+  #registration-pics {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1000px) {
+  .uniform {
+    flex-direction: column;
+  }
+}
