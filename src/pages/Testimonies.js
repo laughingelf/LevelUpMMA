@@ -2,7 +2,7 @@ import { HashLink } from 'react-router-hash-link';
 
 const Testimonies = () => {
     return (
-        <div>
+        <div className='mb-2'>
             <div className="flex justify-center mb-8">
                 <img className="h-36 sm:h-60" src="./img/testimonies.png" alt="testimonies-banner" />
             </div>

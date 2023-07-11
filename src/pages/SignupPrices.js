@@ -3,9 +3,9 @@ import PrivateClasses from '../components/PrivateClasses';
 
 const SignupPrices = () => {
     return (
-        <div className="mb-8">
+        <div className="mb-2">
             <div className='my-8'>
-                <h1 className='flex justify-center'><span className="text-4xl sm:text-6xl mt-8 bg-gray-600 bg-opacity-20 shadow-2xl border-4 border-[#0D27D6] p-4 rounded-2xl">Little Warrior Sign Up Form & Pricing</span></h1>
+                <h1 className='flex justify-center mx-2'><span className="text-4xl sm:text-6xl mt-8 bg-gray-600 bg-opacity-20 shadow-2xl border-4 border-[#0D27D6] p-4 rounded-2xl">Little Warrior Sign Up Form & Pricing</span></h1>
             </div>
             <div className="flex flex-col sm:flex-row my-8 p-4">
                 <div>
@@ -156,9 +156,7 @@ const SignupPrices = () => {
                     <h3 className="text-lg px-6 sm:px-16 my-2">Preparing each student for the Spring Belt Ceremony takes time, effort, & meticulous planning. Mandatory for all Little Warrior Students to receive next rank. Fee applied in February to all enrolled students regardless of attendance. </h3>                </div>
             </div>
             <PrivateClasses />
-            <div className="flex justify-center mt-6 mx-2">
-                <img className="rounded-lg shadow-xl" src="./img/pricing-plan.webp" alt="pricing-plan" />
-            </div>
+
             <div className='my-12'>
                 <a className='w-auto border shadow-xl border-4 text-gray-100 border-[#0D27D6] rounded-full bg-[#30cf3b] text-xl sm:text-2xl py-2 px-4 sm:py-8 sm:px-32'>Click to sign up for Ninja Skills!!</a>
             </div>

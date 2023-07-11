@@ -3,7 +3,7 @@ import PrivateClasses from '../components/PrivateClasses';
 
 const LocationsSchedule = () => {
     return (
-        <div>
+        <div className='mb-2'>
             <div className="flex justify-center mb-8">
                 <img className="h-36 sm:h-60" src='./img/locations.png' alt='locations-banner' />
             </div>

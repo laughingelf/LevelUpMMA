@@ -5,8 +5,12 @@ const Banner = () => {
         <div className="flex flex-col sm:flex-row justify-center items-center">
             <div className="flex flex-col-reverse justify-center items-center">
                 <div className="mx-4 flex flex-row justify-center items-center">
-                    <img className="w-16 h-auto" src="./img/fb-logo.webp" alt="facebook-logo" />
-                    <img className="w-16 h-auto " src="./img/ig-logo.webp" alt="facebook-logo" />
+                    <a href="https://www.facebook.com/LevelUpWarriors/">
+                        <img className="w-16 h-auto" src="./img/fb-logo.webp" alt="facebook-logo" />
+                    </a>
+                    <a href="https://www.instagram.com/levelupwarriors/">
+                        <img className="w-16 h-auto " src="./img/ig-logo.webp" alt="facebook-logo" />
+                    </a>
                 </div>
                 <div className="mx-4">
                     <img className="" src="./img/levelup-logo.webp" alt="level-up-mma-logo" />

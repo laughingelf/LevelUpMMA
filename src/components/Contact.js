@@ -10,7 +10,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-col mt-2">
                 <h1 className="text-3xl font-bold mb-2">Contact Us</h1>
-                <a className="flex items-center justify-center mr-1">
+                <a href='tel:2146809155' className="flex items-center justify-center mr-1">
                     <img className="w-6 h-6" src="./img/phone-black.svg" alt="phone-icon" />
                     214-680-9155
                 </a>

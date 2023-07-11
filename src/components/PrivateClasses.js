@@ -22,6 +22,10 @@ const PrivateClasses = () => {
                 <h4 className="font-bold text-xl">Ages 13 & Up | Adult MMA Class | 7:30-9 PM</h4>
                 <h4 className="text-lg mt-8">Please <span className="underline font-bold">call</span> or <span className="underline font-bold">email</span> Mr. C for more information about these classes if needed.</h4>
             </div>
+
+            <div className="flex justify-center mt-6 mx-2">
+                <img className="rounded-lg shadow-xl" src="./img/pricing-plan.webp" alt="pricing-plan" />
+            </div>
         </div>
     )
 }

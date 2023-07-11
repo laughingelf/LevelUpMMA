@@ -1,8 +1,8 @@
-
+import { HashLink } from 'react-router-hash-link';
 
 const FAQ = () => {
     return (
-        <div className="mx-2 mb-8">
+        <div className="mx-2 mb-2">
             <div className='my-8'>
                 <h1 className='flex justify-center'><span className="text-4xl sm:text-6xl mt-8 bg-gray-600 bg-opacity-20 shadow-2xl border-4 border-[#0D27D6] p-4 rounded-2xl">Frequently Asked Questions</span></h1>
             </div>
@@ -113,6 +113,14 @@ const FAQ = () => {
 
 
             </div>
+            <HashLink
+                smooth
+                id="to-top"
+                to="/signup-and-prices#"
+                className="flex justify-center mt-6 text-gray-400 underline"
+            >
+                Back To Top
+            </HashLink>
         </div>
     )
 }

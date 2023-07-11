@@ -24,7 +24,7 @@ const Footer = () => {
                         </form>
                     </div>
                     <div className="flex mt-4">
-                        <a className="flex items-center text-xs sm:text-lg text-[#30cf3b] mr-2">
+                        <a href='tel:2146809155' className="flex items-center text-xs sm:text-lg text-[#30cf3b] mr-2">
                             <img className="w-6 h-6" src="./img/phone.svg" alt="phone-icon" />
                             214-680-9155
                         </a>
@@ -32,10 +32,10 @@ const Footer = () => {
                             <img className="w-6 h-6" src="./img/email.svg" alt="email-icon" />
                             info@levelupmma.com
                         </a>
-                        <a className="flex items-center text-white mr-2">
+                        <a href="https://www.instagram.com/levelupwarriors/" className="flex items-center text-white mr-2">
                             <img className="w-6 h-6" src="./img/instagram.svg" alt="instagram-icon" />
                         </a>
-                        <a className="flex items-center text-white">
+                        <a href="https://www.facebook.com/LevelUpWarriors/" className="flex items-center text-white">
                             <img className="w-6 h-6" src="./img/facebook.svg" alt="facebook-icon" />
                         </a>
                     </div>

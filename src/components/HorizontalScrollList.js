@@ -1,18 +1,6 @@
 
 const HorizontalScrollList = ({ images, speed }) => {
 
-    // const images = [
-    //     './img/mr-c.webp',
-    //     './img/jesse.webp',
-    //     './img/edward.webp',
-    //     './img/francine.webp',
-    //     './img/jesse.webp',
-    //     './img/edward.webp',
-    //     './img/francine.webp'
-    // ].map((image) => ({
-    //     id: crypto.randomUUID(),
-    //     image
-    // }))
 
     return (
         <div className="inner border-2 rounded-lg my-4 bg-gray-600 bg-opacity-20 shadow-xl">

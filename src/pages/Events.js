@@ -1,4 +1,4 @@
-import React from 'react'
+import { HashLink } from 'react-router-hash-link';
 
 const Events = () => {
     return (
@@ -10,6 +10,14 @@ const Events = () => {
             <div className='flex justify-center items-center'>
                 <img src='./img/levelup-logo-colorful.png' alt='level-up-colorful-logo' />
             </div>
+            {/* <HashLink
+                smooth
+                id="to-top"
+                to="/signup-and-prices#"
+                className="flex justify-center mt-6 text-gray-400 underline"
+            >
+                Back To Top
+            </HashLink> */}
 
         </div>
     )
