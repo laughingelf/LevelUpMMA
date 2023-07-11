@@ -64,3 +64,60 @@
     flex-direction: column;
   }
 }
+
+.image-container {
+  width: 400px;
+  /* Set the desired width */
+  height: 200px;
+  /* Set the desired height */
+  object-fit: cover;
+
+}
+
+#img-slider-img {
+  max-height: 200px
+}
+
+
+
+
+/* this is for the automagic scroller */
+
+#img-scroll {
+  max-width: 250px;
+  height: 200px;
+  padding: 0 15px;
+  object-fit: cover;
+}
+
+#img-scroll:last-of-type {
+  padding-left: 0;
+}
+
+.inner {
+  position: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+}
+
+section {
+  display: flex;
+  animation: swipe var(--speed) linear infinite backwards;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+
+/* end of automatic scroller  */

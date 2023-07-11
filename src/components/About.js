@@ -1,6 +1,20 @@
+import ImageSlider from "./ImageSlider"
 
 
 const About = () => {
+
+    const images = [
+        './img/mr-c.webp',
+        './img/jesse.webp',
+        './img/edward.webp',
+        './img/francine.webp',
+        './img/jesse.webp',
+        './img/edward.webp',
+        './img/francine.webp'
+    ]
+
+
+
     return (
         <div>
             <div className="my-4 flex flex-col justify-center items-center sm:flex-row">
@@ -43,7 +57,7 @@ const About = () => {
                 <div id="scrolling-pics" className="p-4 w-80 mx-8">
                     <img width="300px" src="./img/scrolling-pics.png" alt="pictures-banner" />
                     <div className="border border-4 border-[#0D27D6] rounded-lg p-4 mt-2 bg-gray-600 bg-opacity-20 shadow-xl">
-                        <img className="mt-6 rounded-lg" src="./img/scroll-pic-example.webp" alt="scrolling-pictures" />
+                        <ImageSlider images={images} />
                     </div>
 
                 </div>

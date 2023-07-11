@@ -2,14 +2,27 @@
 import { useState } from "react"
 import About from "../components/About"
 import Contact from "../components/Contact"
-import MediaGallery from "../components/MediaGallery"
 import SpecialsBanner from "../components/SpecialsBanner"
 import Staff from "../components/Staff"
+import HorizontalScrollList from "../components/HorizontalScrollList"
 
 
 const Homepage = () => {
 
     const [runningSpecials, setRunningSpecials] = useState(false)
+
+    const images = [
+        './img/mr-c.webp',
+        './img/jesse.webp',
+        './img/edward.webp',
+        './img/francine.webp',
+        './img/jesse.webp',
+        './img/edward.webp',
+        './img/francine.webp'
+    ].map((image) => ({
+        id: crypto.randomUUID(),
+        image
+    }))
 
 
     return (
@@ -39,7 +52,7 @@ const Homepage = () => {
             </div>
 
             <About />
-            <MediaGallery />
+            <HorizontalScrollList images={images} speed={16000} />
             <Staff />
             <Contact />
 
