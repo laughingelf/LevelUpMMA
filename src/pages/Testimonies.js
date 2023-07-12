@@ -38,7 +38,7 @@ const Testimonies = () => {
                     <iframe className="max-w-full sm:max-w-xs md:max-w-sm lg:max-w-md" width="381" height="214" src="https://www.youtube.com/embed/zZ7Rhsa3mSo" title="Level Up Little Warriors Spring Belt Ceremony 2021" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div className="flex flex-col justify-center items-center sm:m-4 m-2">
-                    <h3 className="text-lg">Mr. C paretnering with Patti on her black belt test.</h3>
+                    <h3 className="text-lg">Mr. C partnering with Patti on her black belt test.</h3>
                     <iframe className="max-w-full sm:max-w-xs md:max-w-sm lg:max-w-md" width="480" height="270" src="https://www.youtube.com/embed/odcUoReAYRY" title="Patricia Ortiz Black Belt Testing One Steps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div className="flex flex-col justify-center items-center sm:m-4 m-2">
