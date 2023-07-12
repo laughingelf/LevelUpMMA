@@ -32,17 +32,18 @@ const Homepage = () => {
                     <SpecialsBanner />
                 ) : null}
             </>
-
+            <HorizontalScrollList images={images} speed={16000} />
             <div className="flex flex-col justify-center items-center">
                 <iframe
                     id="yt-video"
                     className="m-2"
-                    src="https://www.youtube.com/embed/zZ7Rhsa3mSo"
-                    title="Level Up Little Warriors Spring Belt Ceremony 2021"
-                    frameBorder="0"
+                    src="https://www.youtube.com/embed/TU8Qf47x9ro"
+                    title="Little Warrior Belt Ceremony 2023"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                ></iframe>
+                    allowfullscreen>
+
+                </iframe>
                 <img
                     id="lw-img"
                     className=""
@@ -52,7 +53,7 @@ const Homepage = () => {
             </div>
 
             <About />
-            <HorizontalScrollList images={images} speed={16000} />
+
             <Staff />
             <Contact />
 
